@@ -28,3 +28,30 @@ address > span {
     color:#4ab9e9;
 }
 
+.highlight {
+    font-weight: normal;
+    background-color: #ffd500;
+}
+
+
+/* TABLE CSS */
+
+table {
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td {
+    width: 33%;
+}
+
+table thead tr {
+    background-color: #20a9e5;
+    color: #ffffff;
+}
+
+.colored {
+    background-color: #b1e5f2;
+}
+
+
