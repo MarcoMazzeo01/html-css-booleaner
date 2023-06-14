@@ -1,4 +1,4 @@
-html, body {
+* {
     margin: 0;
 }
 
@@ -11,17 +11,19 @@ header {
     
 }
 
-main {
-    margin: 1%;
-}
-
 header img {
     width: 15%;
     margin-top: 25px;
+    margin-left: 10px;
+}
+
+footer {
+    margin-top: 20px;
 }
 
 .author {
     font-style: normal;
+    color: #9c9c9c;
 }
 
 address > span {
@@ -34,11 +36,34 @@ address > span {
 }
 
 
+figure {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    font-size: 0.75em;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+small > p {
+    margin: 0;
+    color: #9c9c9c;
+
+}
+
+
 /* TABLE CSS */
 
 table {
     text-align: left;
     border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 td {
@@ -54,4 +79,25 @@ table thead tr {
     background-color: #b1e5f2;
 }
 
+
+/* ARTICLES */
+.article {
+    background-color: #4ab9e9;
+    width: 200px;
+    height: 175px;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+}
+
+.art_one {
+    background-image: url('../img/graph.jpg');
+}
+
+.art_two {
+    background-image: url('../img/monitor.jpg');
+}
 
